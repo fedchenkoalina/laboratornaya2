@@ -1,0 +1,57 @@
+.catside li:hover {
+background: grey;
+color: #fff;
+}
+
+body{
+  background:#006666;
+  position:center;
+}
+
+.inner {
+display: inline-block;
+vertical-align: middle;
+}
+
+.outer {
+text-align: center;
+}
+
+button{
+width: 150px;
+height: 40px;
+margin-right: -5px;
+}
+
+input{
+width: 250px;
+height: 35px;
+margin-right: -5px;
+outline: none;
+}
+
+label {
+counter-reset: li;
+list-style: none;
+padding: 0;
+text-align: left;
+margin-top: 25px;
+}
+
+ul li  {
+position: relative;
+display: flex;
+padding: 15px;
+margin-top: 0;
+background: #D3D4DA;
+color: #444;
+text-decoration: none;
+
+}
+ul li  > div{
+  width: 100%;
+}
+
+ul li > div:hover{
+  text-decoration: line-through; 
+}
